@@ -1,0 +1,11 @@
+node_modules/
+db.sqlite
+db.sqlite-journal
+*.log
+.env
+.env.local
+
+# 与本游戏无关的本地目录，部署时不需要上传
+.screenshots/
+.trae-html-share-packages/
+cnc-lathe/

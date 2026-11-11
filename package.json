@@ -1,0 +1,28 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "Canvas 贪吃蛇：Express + SQLite/PostgreSQL + 排行榜",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "snake",
+    "canvas",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}
